@@ -1,0 +1,41 @@
+.main
+{
+    background-color: blueviolet;
+    height: 300px;
+    color: white;
+    font-size: 90px;
+    display: none;
+}
+
+@media(min-width:330px) and (max-width:480px)
+{
+    #one
+    {
+        display: block;
+        background-color: green;
+    }
+}
+
+@media ( min-width:481px) and (max-width:768px)
+{  #two
+ 
+    {    display: block;
+        background-color: brown;
+    }
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+    #three
+    {
+        display: block;
+        background-color: crimson;
+    }
+}
+@media ( min-width:1025px) and (max-width:1200px)
+{
+    #four
+    {
+        display: block;
+        background-color: ;
+    }
+}
